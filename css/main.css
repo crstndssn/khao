@@ -48,9 +48,10 @@ ul {
 }
 
 .wok {
-    margin-left: 65%;
-    margin-top: 10%;
-    width: 70%;
+
+    margin: 0;
+    float: right;
+    width: 55%;
 }
 
 h1, .subhead {
@@ -75,6 +76,11 @@ h1, .subhead {
     margin-bottom: 20% 
 }
 
+.icon-1{
+    
+    width: 20%;
+    margin-bottom: -2%;
+}
 .map-container {
     margin-bottom: 15%;
 }

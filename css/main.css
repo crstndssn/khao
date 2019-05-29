@@ -10,12 +10,15 @@ p {
     line-height: 1.5em; 
 }
 
-.slogan {
-    
-    font-size: 3.2em;
-    font-style: bold;
-    text-align: left;
+h1, .subhead {
+    position: relative;
+    z-index: -3;
+    margin-bottom: .1em; 
+}
 
+.container {
+    text-align: center;
+    padding: .8em 1.2em;
 }
 
 ul {
@@ -24,10 +27,9 @@ ul {
     padding: 0;
 }
 
-.container {
-    text-align: center;
-    padding: .8em 1.2em;
-}
+
+
+/*header*/
 
 .logo {
     width: 80px;
@@ -36,12 +38,13 @@ ul {
     display: block;
 }
 
-.logo li{
-    float: none;
-    
-}
 
-.main {
+
+/*section intro*/
+
+.intro {
+    margin-top: 5%;
+    margin-bottom: 5%;
     width: 100%;
     height: 100%;
     flex-direction: column;
@@ -54,10 +57,12 @@ ul {
     width: 40%;
 }
 
-h1, .subhead {
-    position: relative;
-    z-index: -3;
-    margin-bottom: .1em; 
+.slogan {
+    
+    font-size: 3.2em;
+    font-style: bold;
+    text-align: left;
+
 }
 
 .subhead {
@@ -66,6 +71,10 @@ h1, .subhead {
     margin-bottom: 20%;
     text-align: left;
 }
+
+
+
+/*gray container*/
 
 .gray-container{
     
@@ -76,35 +85,30 @@ h1, .subhead {
     margin-bottom: 20% 
 }
 
-.icon-1{
-    
+.vegetables{ 
+    margin: 0%;
+    float: left;  
     width: 30%;
-    margin-bottom: -2%
+    margin-top: -17% 
 }
+
+.note{
+    font-size: 1.3em;
+    text-align: right;
+   
+}
+
+
+
+/*map container*/
+
 .map-container {
     margin-bottom: 15%;
 }
 
 
-.icon-instagram{
-    width: 30%;
-    margin: 0 15px 5px 0; 
-}
 
-.icon-facebook{
-    width: 20%;
-    margin: 0 15px 5px 0;
-    
-}
-
-.social-container{
-    display: inline-flex;
-    justify-content: space-between;
-    margin: 0 5px 0 0;
-    margin-bottom: 20%;
-
-    
-}
+/*calendar*/
 
 .calendar {
 
@@ -115,6 +119,37 @@ h1, .subhead {
     margin-bottom: 15%;
 }
 
+
+
+/*social*/
+
+.icon-instagram{
+    width: 30%;
+    margin: 0 15px 5px 0; 
+}
+
+.icon-facebook{
+    width: 18%;
+    margin: 0 15px 5px 0;
+    
+}
+
+
+.social-container{
+    display: inline-flex;
+    justify-content: space-between;
+    margin: 0 5px 0 0;
+    margin-bottom: 20%;
+    width: 30%;
+}
+
+.social-list li{
+    display: inline;
+}
+
+
+
+/*footer*/
 
 footer {
     background: #209B27;
@@ -140,7 +175,3 @@ footer {
     
 }
 
-
-.food {
-    width: 50px;
-}

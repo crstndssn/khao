@@ -55,6 +55,7 @@ ul {
     margin-top: 10%;
     float: right;
     width: 40%;
+    position: relative;
 }
 
 .slogan {
@@ -175,3 +176,487 @@ footer {
     
 }
 
+/*QUERIES*/
+
+
+@media only screen and (min-width: 480px) {
+
+    /*section intro*/
+
+    .wok {
+        margin-top: 10%;
+        float: right;
+        width: 30%;
+    }
+
+    .slogan {
+        
+        font-size: 4.1em;
+        font-style: bold;
+        text-align: left;
+
+    }
+
+    .subhead {
+        font-size: 2em;
+        padding: 0;
+        margin-bottom: 20%;
+        text-align: left;
+        
+    }
+
+
+
+    /*gray container*/
+
+    .gray-container{
+        
+        width: 100%;
+        background: #504949;
+        padding: 7em 0 3em;
+        color: #fff;
+        margin-bottom: 20%; 
+    }
+
+    .vegetables{ 
+        margin: 0%;
+        float: left;  
+        width: 30%;
+        margin-top: -23% 
+    }
+
+    .note{
+        font-size: 2.3em;
+        text-align: right;
+    
+    }
+
+}
+
+
+@media only screen and (min-width: 600px) {
+
+    /*header*/
+
+    .logo {
+        width: 110px;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+
+    /*section intro*/
+
+    .intro {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .wok {
+
+        margin-top: 10%;
+        float: right;
+        width: 30%;
+    }
+
+    .slogan {
+        
+        font-size: 4.5em;
+        font-style: bold;
+        text-align: left;
+
+    }
+
+    .subhead {
+        font-size: 2.2em;
+        padding: 0;
+        margin-bottom: 20%;
+        text-align: left;
+    }
+
+
+
+    /*gray container*/
+
+    .gray-container{
+        
+        width: 100%;
+        background: #504949;
+        padding: 7em 0 3em;
+        color: #fff;
+        margin-bottom: 20%; 
+    }
+
+    .vegetables{ 
+        margin: 0%;
+        float: left;  
+        width: 30%;
+        margin-top: -18.5% 
+    }
+
+    .note{
+        font-size: 2.6em;
+        text-align: right;
+    
+    }
+
+    /*calendar*/
+
+    .calendar {
+
+        font-size: 1.4em;
+        text-align: center;
+        border: #000 2px solid;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 15%;
+    }
+
+    /*social*/
+
+    .icon-instagram{
+        width: 40%;
+        margin: 0 15px 5px 0; 
+    }
+
+    .icon-facebook{
+        width: 23%;
+        margin: 0 15px 5px 0;
+        
+    }
+
+
+    .social-container{
+        display: inline-flex;
+        justify-content: space-between;
+        margin: 0 5px 0 0;
+        margin-bottom: 20%;
+        width: 30%;
+    }
+
+    .social-list li{
+        display: inline;
+    }
+
+
+
+    /*footer*/
+
+    footer {
+        background: #209B27;
+        position: fixed;
+        left: 0;
+        right: 0;;
+        bottom: 0px;
+        width: 100%;
+        height: 80px;
+    }
+
+    .cta-container {
+        text-align: center;
+        padding: 1em;
+    }
+
+    .cta {
+        
+        color: #fff;
+        text-align: center;
+        text-decoration: none;
+        font-size: 2em;
+        
+    }
+
+
+    @media only screen and (min-width: 800px) {
+
+    .container {
+        text-align: center;
+        padding: 1em 2em;
+    }
+        
+    /*header*/
+
+    .logo {
+        width: 140px;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        margin-top: 3%;
+    }
+
+    /*section intro*/
+
+    
+    .intro {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .wok {
+
+        margin-top: 5%;
+        float: right;
+        width: 35%;
+    }
+
+    .slogan {
+        
+        font-size: 5.5em;
+        font-style: bold;
+        text-align: left;
+
+    }
+
+    .subhead {
+        font-size: 2.8em;
+        padding: 0;
+        margin-bottom: 20%;
+        text-align: left;
+    }
+
+
+
+    /*gray container*/
+
+    .gray-container{
+        
+        width: 100%;
+        background: #504949;
+        padding: 7em 0 3em;
+        color: #fff;
+        margin-bottom: 12%; 
+    }
+
+    .vegetables{ 
+        margin: 0%;
+        float: left;  
+        width: 30%;
+        margin-top: -14% 
+    }
+
+    .note{
+        font-size: 2.8em;
+        text-align: right;
+    
+    }
+
+    /*calendar*/
+
+    .calendar {
+
+        font-size: 1.4em;
+        text-align: center;
+        border: #000 2px solid;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 15%;
+    }
+
+    /*social*/
+
+    .icon-instagram{
+        width: 40%;
+        margin: 0 15px 5px 0; 
+    }
+
+    .icon-facebook{
+        width: 23%;
+        margin: 0 15px 5px 0;
+        
+    }
+
+
+    .social-container{
+        display: inline-flex;
+        justify-content: space-between;
+        margin: 0 5px 0 0;
+        margin-bottom: 20%;
+        width: 30%;
+    }
+
+    .social-list li{
+        display: inline;
+    }
+
+
+
+    /*footer*/
+
+    footer {
+        background: #209B27;
+        position: fixed;
+        left: 0;
+        right: 0;;
+        bottom: 0px;
+        width: 100%;
+        height: 100px;
+    }
+
+    .cta-container {
+        text-align: center;
+        padding: 1.5em;
+    }
+
+    .cta {
+        
+        color: #fff;
+        text-align: center;
+        text-decoration: none;
+        font-size: 2.5em;
+        
+    }
+
+
+
+
+    @media only screen and (min-width: 1024px) {
+
+    /*header*/
+
+    .logo {
+        width: 13%;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+
+    /*section intro*/
+        
+    .intro {
+        margin-top: 5%;
+        margin-bottom: 5%; 
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        }
+        
+        .wok {
+    
+            margin-top: -5%;
+            float: right;
+            width: 30%;
+        }
+       
+        .slogan {
+                
+            font-size: 5em;
+            font-style: bold;
+            text-align: left;
+        
+        }
+        
+        .subhead {
+            font-size: 2.8em;
+            padding: 0;
+            margin-bottom: 20%;
+            text-align: left;
+        }
+        
+        
+        
+        /*gray container*/
+        
+        .gray-container{
+                
+                width: 100%;
+                background: #504949;
+                padding: 7em 0 3em;
+                color: #fff;
+                margin-bottom: 20%; 
+            }
+        
+        .vegetables{ 
+                margin: 0%;
+                float: left; 
+                width: 30%;
+                margin-top: -11%; 
+            }
+        
+        .note{
+                font-size: 3.3em;
+                text-align: right;
+            
+        }
+
+
+        
+    /*calendar*/
+
+    .calendar {
+
+        font-size: 2em;
+        text-align: center;
+        border: #000 2px solid;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 15%;
+    }
+        
+    /*social*/
+
+        
+    .icon-instagram{
+            
+        width: 40%;    
+        margin: 0 15px 5px 0;      
+        padding: 5px; 
+    }
+
+        .icon-facebook{
+            width: 22%;
+            margin: 0 15px 5px 0;
+            padding: 5px; 
+        }
+
+
+        .social-container{
+            display: inline-flex;
+            justify-content: space-between;
+            margin: 0 6px 0 0;
+            margin-bottom: 20%;
+            width: 30%;
+        }
+
+        .social-list li{
+            display: inline;
+        }
+
+
+
+        /*footer*/
+
+        footer {
+            background: #209B27;
+            position: fixed;
+            left: 0;
+            right: 0;;
+            bottom: 0px;
+            width: 100%;
+            height: 140px;
+        }
+
+        .cta-container {
+            text-align: center;
+            padding: 2em;
+        }
+
+        .cta {
+            
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            font-size: 3.5em;
+            
+        }
+        
+        
+    
+    }
+
+}

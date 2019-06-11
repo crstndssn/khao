@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Cormorant');
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 body {
     margin: 0;
-    font-family: 'Cormorant', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 p {
@@ -13,13 +12,12 @@ p {
 
 h1, .subhead {
     position: relative;
-    z-index: -3;
     margin-bottom: .1em; 
 }
 
 .container {
     text-align: center;
-    padding: .8em 1.2em;
+    padding: 1em 1.5em;
 }
 
 ul {
@@ -28,7 +26,13 @@ ul {
     padding: 0;
 }
 
+.footer-desk {
+    visibility: hidden;
+}
 
+.cta-desk{
+    visibility: hidden;
+}
 
 /*header*/
 
@@ -53,15 +57,15 @@ ul {
 
 .wok {
 
-    margin-top: 10%;
+    margin-top: 5%;
     float: right;
-    width: 40%;
+    width: 30%;
     position: relative;
 }
 
 .slogan {
     
-    font-size: 3.2em;
+    font-size: 2.5em;
     font-style: bold;
     text-align: left;
 
@@ -81,10 +85,10 @@ ul {
 .gray-container{
     
     width: 100%;
-    background: #504949;
+    background: #666666;
     padding: 4em 0 2em;
     color: #fff;
-    margin-bottom: 20% 
+    margin-bottom: 20%; 
 }
 
 .vegetables{ 
@@ -154,28 +158,26 @@ ul {
 
 /*footer*/
 
-footer {
+.footer-mobile {
     background: #209B27;
     position: fixed;
-    left: 0;
-    right: 0;;
-    bottom: 0px;
+    bottom: 0;
     width: 100%;
     height: 60px;
 }
 
-.cta-container {
-    text-align: center;
+.cta-container-mobile {
     padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.cta {
-    
+
+.cta-mobile {  
     color: #fff;
-    text-align: center;
     text-decoration: none;
     font-size: 1.5em;
-    
 }
 
 
@@ -216,7 +218,7 @@ footer {
     .gray-container{
         
         width: 100%;
-        background: #504949;
+        background:#666666;
         padding: 7em 0 3em;
         color: #fff;
         margin-bottom: 20%; 
@@ -290,7 +292,7 @@ footer {
     .gray-container{
         
         width: 100%;
-        background: #504949;
+        background: #666666;
         padding: 7em 0 3em;
         color: #fff;
         margin-bottom: 20%; 
@@ -351,7 +353,7 @@ footer {
 
     /*footer*/
 
-    footer {
+    .footer-mobile {
         background: #209B27;
         position: fixed;
         left: 0;
@@ -434,7 +436,7 @@ footer {
     .gray-container{
         
         width: 100%;
-        background: #504949;
+        background: #666666;
         padding: 7em 0 3em;
         color: #fff;
         margin-bottom: 12%; 
@@ -495,7 +497,7 @@ footer {
 
     /*footer*/
 
-    footer {
+    .footer-mobile {
         background: #209B27;
         position: fixed;
         left: 0;
@@ -535,7 +537,6 @@ footer {
     }
 
     nav ul{
-        font-family: 'Montserrat', sans-serif;
         position: inherit;
         width: auto;
         height: auto;
@@ -558,6 +559,7 @@ footer {
     }
 
     .cta-desk {
+        visibility: visible;
         display: inline-block;
     }
 
@@ -620,7 +622,7 @@ footer {
         
     .gray-container{         
         width: 100%;
-        background: #504949;
+        background: #666666;
         padding: 7em 0 3em;
         color: #fff;
         margin-bottom: 10%; 
@@ -630,11 +632,11 @@ footer {
         margin: 0%;
         float: left; 
         width: 18%;
-        margin-top: -8%; 
+        margin-top: -11%; 
     }
         
     .note{
-        font-size: 3.4em;
+        font-size: 2.5em;
         text-align: right;  
         margin-right: 10%;        
     }
@@ -642,20 +644,21 @@ footer {
     .map-container {
         float: left;
         width: 40%;
-        margin-left: 10%;
+        margin-left: 5%;
     }
         
     /*calendar*/
 
     .calendar {
-        font-size: 1.5em;
+        font-size: 1em;
         text-align: center;
         border: #000 2px solid;
         float: right;
-        margin-right: 10%;
+        margin-right: 5%;
         padding: 0;
-        margin-left: 0%;
+        margin-left: 0;
         margin-bottom: -20%;
+        margin-top: 5%;
     }
  
     /*social*/
@@ -678,29 +681,47 @@ footer {
     }
 
     /*footer*/
-
+    
+    .footer-desk {
+        visibility: visible;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background: #FFF;
+    }
+    
     .footer-mobile {
         visibility: hidden;
     }
 
-    footer {
+
+    .footer-container-desk {
+        width: 100%;
         position: relative;
-        background: #504949;
         left: 0;
         right: 0;
-        bottom: 0;
-        width: 100%;
-        margin-bottom: 0%;
-        
+        margin-top: 10%;
+    }
+    
+    .footer-container-desk ul {
+        display: inline;
+        justify-content: space-between;
+        text-align: center;
     }
 
-    .a-footer {
+    .footer-container-desk ul li {
         text-align: center;
-        font-family: 'Montserrat', sans-serif;
-        color: #fff;
+        float: left;
+        font-size: 1.1em;
+    }   
+
+    .footer-container-desk ul li a {
+        text-align: center;
+        padding: 2em;
         text-decoration: none;
-        right: 0;
-        left: 0;
+        color: #209B27;
+
     }
+
 }
 

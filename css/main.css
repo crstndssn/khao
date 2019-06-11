@@ -41,15 +41,20 @@ ul {
     margin-right: auto;
     margin-left: auto;
     display: block;
+    margin-bottom: 0;
 }
 
 
 
 /*section intro*/
 
+.section {
+    margin-top: -5%;
+}
+
 .intro {
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: -15%;
+    margin-bottom: 10%;
     width: 100%;
     height: 100%;
     flex-direction: column;
@@ -57,7 +62,7 @@ ul {
 
 .wok {
 
-    margin-top: 5%;
+    margin-top: 15%;
     float: right;
     width: 30%;
     position: relative;

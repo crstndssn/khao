@@ -44,8 +44,6 @@ ul {
     margin-bottom: 0;
 }
 
-
-
 /*section intro*/
 
 .section {
@@ -53,25 +51,26 @@ ul {
 }
 
 .intro {
-    margin-top: -15%;
+    margin-top: -20%;
     margin-bottom: 10%;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     flex-direction: column;
+    color: #707070;
 }
 
 .wok {
 
-    margin-top: 15%;
+    margin-top: 50%;
     float: right;
     width: 30%;
     position: relative;
 }
 
 .slogan {
-    
+    line-height: 50px;
+    font-style: medium;
     font-size: 2.5em;
-    font-style: bold;
     text-align: left;
 
 }
@@ -84,14 +83,13 @@ ul {
 }
 
 
-
 /*gray container*/
 
 .gray-container{
     position: relative;
-    height: 50vh;
+    height: 60vh;
     width: 100%;
-    background: #666666;
+    background: #707070;
     padding: 4em 0 2em;
     color: #fff;
     margin-bottom: 20%; 
@@ -101,7 +99,7 @@ ul {
     margin: 0%;
     float: left;  
     width: 40%;
-    margin-top: 100%;
+    margin-top: 90%;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -109,20 +107,18 @@ ul {
 }
 
 .note{
-    font-size: 2.3em;
-    text-align: right;
+    font-size: 1.2em;
+    text-align: center;
     padding: 1em 0 3em;
 }
-
-
 
 
 /*map container*/
 
 .map-container {
-    margin-bottom: 15%;
+    margin-top: 50%;
+    margin-bottom: 50%;
 }
-
 
 
 /*calendar*/
@@ -130,40 +126,53 @@ ul {
 .calendar {
 
     text-align: center;
-    border: #000 2px solid;
+    border: #707070 2px solid;
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 15%;
+    font-size: 1em;
+    color: #707070
 }
-
 
 
 /*social*/
 
-.icon-instagram{
-    width: 30%;
-    margin: 0 15px 5px 0; 
+.icon {
+    padding: 12px;
+    align-items: center;
+    text-decoration: none;
 }
 
-.icon-facebook{
-    width: 18%;
-    margin: 0 15px 5px 0;
-    
+.icon-facebook {
+    width: 35%;
+}
+
+.icon-instagram {
+    width: 45%;
+}
+
+.icon-rappi {
+    width: 60%;
+}
+
+.social-container {
+    margin: 4em 0 3em;
 }
 
 
-.social-container{
-    display: inline-flex;
-    justify-content: space-between;
-    margin: 0 5px 0 0;
-    margin-bottom: 20%;
-    width: 30%;
+.social-container ul{
+    margin: 0;
+    padding: 0;
 }
 
-.social-list li{
+.social-container ul li{
     display: inline;
 }
 
+.social-container ul li a{
+    display: inline-block;;
+    text-align: center;
+}
 
 
 /*footer*/
@@ -173,7 +182,7 @@ ul {
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 60px;
+    height: 50px;
 }
 
 .cta-container-mobile {
@@ -181,19 +190,58 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    top: 0;
+    bottom: 0;
 }
 
 
-.cta-mobile {  
+.cta-mobile {
+    font-style: bold;
     color: #fff;
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 
 
 /*QUERIES*/
 
+@media only screen and (min-width: 375px) {
+
+    /* logo */
+
+    .logo {
+        width: 30%;
+        margin-top: 5%;
+    }
+
+    /*section intro*/
+
+    .wok {
+        margin-top: 30%;
+        float: right;
+        width: 30%;
+    }
+
+    .slogan {
+        font-size: 3.1em;
+        text-align: left;
+        line-height: 55px;
+    }
+
+    .subhead {
+        font-size: 2em;
+        padding: 0;
+        margin-bottom: 20%;
+        text-align: left;
+        
+    }
+
+    .gray-container {
+        font-size: 1.2em;
+    }
+
+}
 
 @media only screen and (min-width: 480px) {
 
@@ -208,7 +256,6 @@ ul {
     .slogan {
         
         font-size: 4.1em;
-        font-style: bold;
         text-align: left;
 
     }
@@ -288,7 +335,6 @@ ul {
     .slogan {
         
         font-size: 4.5em;
-        font-style: bold;
         text-align: left;
 
     }
@@ -432,7 +478,6 @@ ul {
     .slogan {
         
         font-size: 5.5em;
-        font-style: bold;
         text-align: left;
 
     }
@@ -617,7 +662,6 @@ ul {
        
     .slogan {            
         font-size: 4em;
-        font-style: bold;
         text-align: left;
         margin-left: 10%;
     }

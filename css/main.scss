@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800&display=swap');
+=======
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+>>>>>>> 0b50809a3454f7652cdbce945cb9bda27ee4fb83
 
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+<<<<<<< HEAD
     text-align: center;
     color: #2D2D2D;
 }
@@ -103,4 +108,449 @@ img {
     font-size: 20px;
     text-decoration: none;
     letter-spacing: -1px;
+=======
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.5em; 
+}
+
+.section1 {
+    width: 100%;
+    height: 100vh;
+}
+.container {
+    text-align: center;
+    padding: 1em 1.5em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cta-desk{
+    visibility: hidden;
+}
+
+/*header*/
+
+.logo {
+
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    margin-bottom: 0;
+    width: 60%;
+    padding: 1em;
+}
+
+
+/*section intro*/
+
+.section {
+    margin-top: -5%;
+    position: relative;
+}
+
+.intro {
+    margin-top: -20%;
+    margin-bottom: 10%;
+    width: 100%;
+    color: #000;
+}
+
+.slogan {
+    font-weight: bold;
+}
+
+
+.wok {
+    margin-top: 50%;
+    margin-right: 0;
+    float: right;
+    width: 35%;
+}
+
+.slogan {
+    line-height: 50px;
+    font-style: medium;
+    font-size: 2.5em;
+    text-align: left;
+
+}
+
+.subhead {
+    font-size: 1.3em;
+    padding: 0;
+    margin-bottom: 20%;
+    text-align: left;
+}
+
+
+/*menu*/
+
+.menu-container{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+}
+
+.arma-tu-caja {
+    padding: 1em;
+}
+
+.menu {
+    width: 100%;
+}
+
+.cta-ordene-ya {
+    position: absolute;
+    margin-top: 0; 
+}
+
+
+/*map container*/
+
+.map-container {
+    padding: 4em 0 0 0;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+// footer
+
+.footer-container {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+.time-container {
+    padding: 1em auto;
+
+}
+
+.footer-container img{
+    margin: 0;
+    margin-bottom: 0;
+}
+
+/*calendar*/
+
+.calendar {
+
+    text-align: center;
+    border: #707070 2px solid;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 15%;
+    font-size: .8em;
+    color: #707070
+}
+
+
+
+/*QUERIES*/
+
+@media only screen and (min-width: 375px) {
+
+    /* logo */
+
+    .logo {
+        width: 70%;
+        margin-top: 5%;
+    }
+
+    /*section intro*/
+
+    .intro {
+        position: relative;
+    }
+
+    .wok {
+        margin-top: 50%;
+        float: right;
+        width: 30%;
+    }
+
+    .slogan {
+        font-size: 2.8em;
+        text-align: left;
+        line-height: 55px;
+        margin-top: 15%;
+        margin-bottom: 0;
+        position: static
+
+
+    }
+
+    .subhead {
+        font-size: 1.8em;
+        padding: 0;
+        margin-bottom: 20%;
+        text-align: left;
+        
+    }
+
+    .gray-container {
+        font-size: 1.2em;
+    }
+
+    .icon-facebook {
+        width: 40%;
+    }
+    
+    .icon-instagram {
+        width: 52%;
+    }
+    
+    .icon-rappi {
+        width: 70%;
+    }
+
+}
+
+
+
+@media only screen and (min-width: 600px) {
+
+    /* logo */
+
+    .logo {
+        width: 60%;
+        margin-top: 5%;
+    }
+
+    /*section intro*/
+
+    .intro {
+        position: relative;
+    }
+
+    .wok {
+        margin-top: 50%;
+        float: right;
+        width: 30%;
+    }
+
+    .slogan {
+        font-size: 5.7em;
+        text-align: left;
+        line-height: 110px;
+        margin-top:25%;
+        margin-bottom: 0;
+        position: static
+
+
+    }
+
+    .subhead {
+        font-size: 2.8em;
+        padding: 0;
+        margin-bottom: 20%;
+        text-align: left;
+        
+    }
+
+    .gray-container {
+        font-size: 1.2em;
+    }
+
+    .icon-facebook {
+        width: 40%;
+    }
+    
+    .icon-instagram {
+        width: 52%;
+    }
+    
+    .icon-rappi {
+        width: 70%;
+    }
+}
+
+
+
+@media only screen and (min-width: 1024px) {
+
+    /* logo */
+
+    .logo {
+        width: 40%;
+        margin-top: 5%;
+    }
+
+    /*section intro*/
+
+    .intro {
+        position: relative;
+    }
+
+    .wok {
+        margin-top: 50%;
+        float: right;
+        width: 30%;
+    }
+
+    .slogan {
+        font-size: 6.8em;
+        text-align: left;
+        line-height: 120px;
+        margin-top:30%;
+        margin-bottom: 0;
+        position: static;
+
+
+    }
+
+    .subhead {
+        font-size: 2.8em;
+        padding: 0;
+        margin-bottom: 20%;
+        text-align: left;
+        
+    }
+
+    .menu{
+        width: 80%;
+    }
+
+    .icon-facebook {
+        width: 40%;
+    }
+    
+    .icon-instagram {
+        width: 52%;
+    }
+    
+    .icon-rappi {
+        width: 70%;
+    }
+    
+
+}
+
+
+@media  screen and (max-width: 1280px) {
+    
+    /*header*/
+    
+    .logo {
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        margin-bottom: 0;
+        width:20%;
+        padding: 1em;
+    }
+    
+    
+    /*section intro*/
+    
+    .intro {
+        margin-top: -20%;
+        margin-bottom: 20%;
+        width: 100%;
+        color: #000;
+    }
+
+    .wok {
+        margin-top: 50%;
+        margin-right: 0;
+        float: right;
+        width: 20%;
+    }
+    
+    .slogan {
+        line-height: 140px;
+        font-style: medium;
+        font-size: 7em;
+        text-align: left;
+    
+    }
+    
+    .subhead {
+        font-size: 2.3em;
+        padding: 0;
+        margin-bottom: 20%;
+        text-align: left;
+    }
+    
+    
+    /*menu*/
+    
+    .menu-container{
+        position: relative;
+        height: 100vh;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .arma-tu-caja {
+        margin: 1em;
+    }
+    
+    .menu {
+        width: 80%;
+    }
+    
+    .cta-ordene-ya {
+        position: absolute;
+        margin-top: 0; 
+    }
+    
+    
+    /*map container*/
+    
+    .map-container {
+        
+        position: relative;
+        height: 100vh;
+        width: 100%;
+        margin-top: 20%;
+        text-align: center;
+    }
+    
+    
+    
+    // footer
+    
+    .footer-container {
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+    }
+    
+    .time-container {
+        padding: 20em auto;
+    
+    }
+    
+    .footer-container img{
+        margin: 0;
+        margin-bottom: 0;
+    }
+    
+    /*calendar*/
+    
+    .calendar {
+    
+        text-align: center;
+        border: #707070 2px solid;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 15%;
+        font-size: .8em;
+        color: #707070
+    }
+>>>>>>> 0b50809a3454f7652cdbce945cb9bda27ee4fb83
 }

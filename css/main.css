@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800&display=swap");
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: #2D2D2D;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.inicio {
+  height: 100vh;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 20px;
+}
+
+.header a {
+  color: #209B27;
+  font-size: 18px;
+}
+
+.inicio_text1 {
+  font-weight: 600;
+  font-size: 25px;
+  letter-spacing: -2px;
+  color: #2D2D2D;
+  margin: 0;
+}
+
+.inicio_text2 {
+  font-weight: 600;
+  font-size: 35px;
+  letter-spacing: -2px;
+  color: #2D2D2D;
+  margin: 0;
+}
+
+.horario {
+  height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.horario_titulo {
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: -2px;
+  color: #2D2D2D;
+}
+
+.horario_time p {
+  font-size: 25px;
+  margin: 0;
+}
+
+.encuentranos {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.encuentranos_titulo {
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: -2px;
+  color: #2D2D2D;
+}
+
+.horario_time p {
+  font-size: 25px;
+  margin: 0;
+}
+
+.footer {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.footer a {
+  color: #209B27;
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration: none;
+  letter-spacing: -1px;
+}
+/*# sourceMappingURL=main.css.map */

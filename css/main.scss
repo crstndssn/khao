@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #2D2D2D;
+}
+    
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.inicio {
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.header a{
+    color: #209B27;
+    font-size: 18px;
+}
+
+.inicio_text1{
+    font-weight: 600;
+    font-size: 25px;
+    letter-spacing: -2px;
+    color: #2D2D2D;
+    margin: 0;
+}
+
+.inicio_text2{
+    font-weight: 600;
+    font-size: 35px;
+    letter-spacing: -2px;
+    color: #2D2D2D;
+    margin: 0;
+}
+
+//horario
+.horario {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.horario_titulo {
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -2px;
+    color: #2D2D2D;
+}
+
+.horario_time p{
+    font-size: 25px;
+    margin: 0;
+}
+
+
+//encuentranos
+.encuentranos {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.encuentranos_titulo {
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -2px;
+    color: #2D2D2D;
+}
+
+.horario_time p{
+    font-size: 25px;
+    margin: 0;
+}
+
+//footer
+
+.footer {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer a{
+    color: #209B27;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    letter-spacing: -1px;
+}

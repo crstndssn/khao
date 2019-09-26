@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap");
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
@@ -11,49 +11,123 @@ img {
   height: auto;
 }
 
-.inicio {
+.video {
+  width: auto;
   height: 100vh;
 }
 
-.header {
+.inicio {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  padding: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  overflow: hidden;
 }
 
-.header a {
+.header {
+  padding: 15px;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.header_title {
+  font-size: 40px;
+  font-weight: bold;
+  color: #FFF;
+  background: #209B27;
+  padding: 0 5px;
+  margin: 0;
+  letter-spacing: -1px;
+}
+
+.header_slogan {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
   color: #209B27;
-  font-size: 18px;
+  background: #FFF;
+  padding: 5px;
+  margin: 0;
+  letter-spacing: -1px;
 }
 
-.header img {
-  width: 40%;
-}
-
-.inicio_text1 {
-  font-weight: 600;
-  font-size: 25px;
-  letter-spacing: -2px;
-  color: #2D2D2D;
+.header_cta {
+  font-size: 20px;
+  font-weight: bold;
+  color: #FFF;
+  background: #209B27;
+  padding: 8px;
   margin: 0;
 }
 
-.inicio_text2 {
-  font-weight: 600;
+.intro {
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.intro_hello {
   font-size: 35px;
-  letter-spacing: -2px;
-  color: #2D2D2D;
+  font-weight: 700;
+  color: #209B27;
+  text-align: left;
   margin: 0;
+  letter-spacing: -2px;
+  padding: 0 20px;
+}
+
+.intro_text {
+  padding: 20px;
+  font-size: 25px;
+  font-weight: 500;
+  color: #209B27;
+  text-align: left;
+  letter-spacing: -1px;
+  margin: 0;
+}
+
+.imagen {
+  margin: 0;
+  padding: 0;
+  height: auto;
+}
+
+.imagen img {
+  width: 100%;
+  height: auto;
 }
 
 .horario {
+  padding: 20px;
   height: 50vh;
+  background: #209B27;
+  color: #FFF;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -70,10 +144,11 @@ img {
 }
 
 .horario_titulo {
+  margin: 0;
   font-size: 40px;
   font-weight: 600;
   letter-spacing: -2px;
-  color: #2D2D2D;
+  color: #FFF;
 }
 
 .horario_time p {
@@ -82,7 +157,7 @@ img {
 }
 
 .encuentranos {
-  height: 100vh;
+  height: 80vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -101,13 +176,8 @@ img {
 .encuentranos_titulo {
   font-size: 40px;
   font-weight: 600;
-  letter-spacing: -2px;
-  color: #2D2D2D;
-}
-
-.horario_time p {
-  font-size: 25px;
-  margin: 0;
+  letter-spacing: -3px;
+  color: #209B27;
 }
 
 .footer {
@@ -136,22 +206,51 @@ img {
 }
 
 @media (min-width: 800px) {
+  .video {
+    width: 100%;
+    height: auto;
+  }
+  .inicio {
+    width: 100%;
+    height: auto;
+  }
   .header {
-    padding-top: 40px;
-  }
-  .header img {
-    width: 180px;
-  }
-  .header a {
-    font-size: 24px;
-  }
-  .inicio_container {
+    padding: 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-item-align: center;
+        align-self: center;
   }
-  .inicio_text {
-    width: 50%;
+  .header_title {
+    font-size: 60px;
+    font-weight: bold;
+    color: #FFF;
+    background: #209B27;
+    padding: 2px;
+    margin: 0;
+  }
+  .header_slogan {
+    font-size: 40px;
+    font-weight: bold;
+    color: #209B27;
+    background: #FFF;
+    padding: 2px;
+    margin: 0;
+  }
+  .header_cta {
+    font-size: 40px;
+    font-weight: bold;
+    color: #FFF;
+    background: #209B27;
+    padding: 10px;
+    margin: 0;
+  }
+  .intro {
+    height: 70vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -162,12 +261,86 @@ img {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-  .inicio_text1 {
-    font-size: 35px;
+  .intro_hello {
+    font-size: 60px;
+    font-weight: 700;
+    color: #209B27;
+    text-align: left;
+    margin: 0;
+    letter-spacing: -2px;
+    padding: 0 20px;
   }
-  .inicio_text2 {
-    font-size: 50px;
+  .intro_text {
+    padding: 10px 150px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #209B27;
+    text-align: left;
+    letter-spacing: -1px;
+    margin: 0;
+  }
+  .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .horario {
+    width: 50%;
+    padding: 20px;
+    height: 50vh;
+    background: #209B27;
+    color: #FFF;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .horario_titulo {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -2px;
+    color: #FFF;
+  }
+  .horario_time p {
+    font-size: 25px;
+    margin: 0;
+  }
+  .encuentranos {
+    width: 50%;
+    height: 50vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .encuentranos_titulo {
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -3px;
+    color: #209B27;
   }
 }
 /*# sourceMappingURL=main.css.map */
